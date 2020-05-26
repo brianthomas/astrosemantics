@@ -1,0 +1,49 @@
+{
+   "abstract" : "false",
+   "author" : [
+      "Brian Thomas <bthomas@noao.edu>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.120630",
+   "license" : [
+      "open_source"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "AstroSemantics",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "List::MoreUtils" : "0.22",
+            "Test::More" : "0.94"
+         }
+      }
+   },
+   "provides" : {
+      "AstroSemantics" : {
+         "file" : "lib/AstroSemantics.pm",
+         "version" : "1.0"
+      },
+      "AstroSemantics::AstroDictionary" : {
+         "file" : "lib/AstroSemantics/AstroDictionary.pm",
+         "version" : 0
+      },
+      "AstroSemantics::TextProcessing" : {
+         "file" : "lib/AstroSemantics/TextProcessing.pm",
+         "version" : 0
+      },
+      "AstroSemantics::Tokenizer" : {
+         "file" : "lib/AstroSemantics/Tokenizer.pm",
+         "version" : 0
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://opensource.org/licenses/lgpl-license.php"
+      ]
+   },
+   "version" : "1.0"
+}

@@ -1,0 +1,9 @@
+Build.PL
+lib/AstroSemantics.pm
+lib/AstroSemantics/AstroDictionary.pm
+lib/AstroSemantics/TextProcessing.pm
+lib/AstroSemantics/Tokenizer.pm
+MANIFEST			This list of files
+t/AstroDictionary.t
+t/test_subject_list
+t/Tokenizer.t
